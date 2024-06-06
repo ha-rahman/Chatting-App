@@ -20,7 +20,7 @@ import io from "socket.io-client";
 import Lottie from "lottie-react";
 import typingAnimation from "../animations/typing.json";
 
-const ENDPOINT = "http://localhost:5000"; // "https://text-to-talk.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://text-to-talk.herokuapp.com"; // "https://text-to-talk.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
